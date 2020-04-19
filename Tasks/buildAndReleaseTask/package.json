@@ -1,0 +1,23 @@
+{
+  "name": "buildAndReleaseTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha dist/tests/_suite.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.1",
+    "@types/q": "^1.5.2",
+    "mocha": "^7.1.1",
+    "sync-request": "^6.1.0"
+  },
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3"
+  }
+}
